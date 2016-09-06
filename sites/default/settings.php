@@ -581,4 +581,6 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  * Remove the leading hash signs to disable.
  */
 # $conf['allow_authorize_operations'] = FALSE;
-ini_set('max_execution_time', 0);
+
+# setting bigger timeout for install
+ini_set('max_execution_time', 300);
