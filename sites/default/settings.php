@@ -583,4 +583,4 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
 # $conf['allow_authorize_operations'] = FALSE;
 
 # setting bigger timeout for install
-ini_set('max_execution_time', 300);
+ini_set('max_execution_time', 3600);
